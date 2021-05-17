@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/ic_maincamera"
+            android:icon="@drawable/ic_maincamera"
+            android:checked="true"
+            android:title="Real Time" />
+        <item
+            android:id="@+id/ic_storaged"
+            android:icon="@drawable/ic_storaged"
+            android:title="From Saved"/>
+    </group>
+
+</menu>
